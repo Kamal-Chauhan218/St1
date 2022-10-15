@@ -1,0 +1,148 @@
+
+body{
+  
+    background: url("https://bit.ly/3PD8pXz");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .topnav {
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+  
+  }
+  
+  .topnav a {
+    position: relative;
+    left: 80px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+      background-color: #555;  
+      color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #4dc0d3;
+    position: relative;
+    left: 0px;
+    color: white;
+  }   
+  .topnav input[type=text] {
+    position:relative;
+    left: 150px;
+    width: 300px;
+    border-radius: 2px;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .sidebar {
+    margin: 30px 0px 0px 15px;
+    padding: 20px 0px 0px 0px;
+    width: 250px;
+    background-color:black;
+    border-radius: 10px ;
+    position:absolute;
+    height: 90%;
+    overflow: auto;
+    border: 1px solid;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+   
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .sidebar_title{
+      padding: 10px;
+      text-align: center;
+      color: wheat;
+  }
+  
+  .inner_container{
+      margin: 20px 0px 0px 300px;
+      display: flex;
+  }
+  .inner_container_item
+  {
+      padding: 20px;
+      width: 33%;
+      height: 400px;
+  }
+  .inner_container img{
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+  }
+  .inner_container img:hover{
+      box-shadow: 0px 0px 0px 2px #91b4c7;
+  }
+  .main_card{
+      border: 1px solid;
+  }
+  .banner{
+      position: relative;
+      left: 20px;
+  }
+  .banner img{
+      width:98%;
+      height: 300px;
+  }
+  input[type="text"]:focus:hover{
+      outline: none;
+      box-shadow: 0px 0px 5px #61C5FA;
+      border:1px solid #5AB0DB;
+      border-radius:2px;
+      
+      }  
+
+.product_info{
+    width: 200px;
+    height: 60px;
+    margin: 10px 0px 0px 30px;
+    border: 1px solid;
+    display:flex;
+    color: white;
+    padding: 0px 0px 0px 30px;
+}
+.product_info p{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+}
+.product_info i{
+    position: relative;
+    border: 1px solid;
+    left: 30px;
+    padding: 20px 55px 0px 30px;
+    font-size: 20px;
+}
+.description{
+    position: relative;
+    left: -15px;
+    color:white;
+    text-align: center;
+
+}
